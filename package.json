@@ -1,0 +1,25 @@
+{
+  "name": "botscaffold",
+  "version": "1.0.0",
+  "description": "A framework for quickly building and deploying Telegram and Discord bots",
+  "main": "src/botscaffold.js",
+  "bin": {
+    "botscaffold": "src/botscaffold.js"
+  },
+  "scripts": {
+    "start": "node src/botscaffold.js",
+    "test": "node test/test.js",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "developer-tools",
+    "botscaffold"
+  ]
+}
